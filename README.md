@@ -22,4 +22,3 @@ https://discord.gg/Um8h7X2pBD
 
 
 
-![discord-avatar-512-YP5X7]
