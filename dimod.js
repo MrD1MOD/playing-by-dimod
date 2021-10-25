@@ -11,10 +11,10 @@ setInterval(() => {
 
 ///////
 
-const dimod1 = new Discord.Client();
+const dimod = new Discord.Client();
 
 
-dimod1.on("ready", () => {
+dimod.on("ready", () => {
   console.log(
     `Online In Servers`
   );
@@ -25,7 +25,7 @@ dimod1.on("ready", () => {
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    dimod1.user.setActivity(STREAMING, {      
+    dimod.user.setActivity(STREAMING, {      
     type: "playing", 
     url: "https://www.twitch.tv/faith"
     });
@@ -33,4 +33,4 @@ dimod1.on("ready", () => {
 });
 
 
-dimod1.login("");
+dimod.login("");
